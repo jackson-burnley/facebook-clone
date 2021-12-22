@@ -1,0 +1,29 @@
+h1,
+h2,
+p,
+h3 {
+  margin: 0;
+}
+
+body {
+  color: #1c1e21;
+  background-color: #f0f2f5;
+
+  margin: 0;
+  padding: 0;
+}
+
+form a,
+input,
+button {
+  display: block;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
