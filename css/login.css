@@ -2,6 +2,7 @@
   max-width: 980px;
   margin: 0 auto;
   display: grid;
+  gap: 40px;
   grid-template-columns: 1.5fr 1fr;
   padding-top: 130px;
   padding-bottom: 200px;
@@ -26,6 +27,7 @@ form {
   padding: 16px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  display: grid;
 }
 
 input {
@@ -39,4 +41,48 @@ input[placeholder] {
   font-size: 18px;
   color: #1d2129;
   opacity: 0.6;
+}
+
+.facebook p {
+  font-size: 1.8rem;
+}
+
+.botao {
+  background-color: #1878f3;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.esqueceu-senha {
+  text-align: center;
+  color: #1878f3;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(37, 37, 37, 0.1);
+}
+
+.criar-conta {
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 5px;
+
+  padding: 12px 24px;
+  background: #3db62b;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.criar-pagina {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.criar-pagina a {
+  font-weight: 700;
 }
