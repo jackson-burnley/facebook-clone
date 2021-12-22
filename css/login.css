@@ -8,11 +8,14 @@
   padding-bottom: 200px;
   padding-left: 50px;
   padding-right: 50px;
+  align-items: center;
 }
 
 img {
   display: block;
   height: 106px;
+  max-width: 100%;
+  margin: -28px;
 }
 
 h2 {
@@ -45,6 +48,8 @@ input[placeholder] {
 
 .facebook p {
   font-size: 1.8rem;
+  margin-top: 15px;
+  max-width: 500px;
 }
 
 .botao {
